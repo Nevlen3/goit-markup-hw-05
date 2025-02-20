@@ -129,7 +129,11 @@ img {
  /* Main osnov*/
  .main-page {
     padding: 188px 0;
-    background-color: #2e2f42;
+    background-color: #2a2a2a;
+    background-image: url(https://raw.githubusercontent.com/Nevlen3/goit-markup-hw-04/refs/heads/main/icons/people-office%201.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
  }  
  .main-container {
     display: flex;
@@ -190,6 +194,9 @@ img {
 .features-list-items {
     flex-basis: calc((100% - 3 * 24px) / 4); 
 } 
+.fea {
+    margin-bottom: 8px;
+}
 
 .features-list-title {
     font-weight: 500;
