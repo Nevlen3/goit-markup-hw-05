@@ -279,7 +279,9 @@ img {
 
 .icon-features {
     width: 64px;
-    height: 64px;   
+    height: 64px;  
+    fill: #2e2f42;
+    fill: #4d5ae5;
 }
 
 .features-list-title {
