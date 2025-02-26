@@ -734,8 +734,7 @@ img {
 .input-wrapper {
     position: relative;
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .input-icon {
@@ -743,16 +742,13 @@ img {
     left: 12px;
     width: 16px;
     height: 16px;
-    fill: #2E2F42;
-    /* Цвет иконки */
+    fill: #2E2F42; 
 }
 
 .form-input {
     width: 100%;
-    padding: 10px 12px 10px 36px;
-    /* Отступ слева для иконки */
-    border: 2px solid #6a5acd;
-    /* Цвет рамки */
+    padding: 10px 12px 10px 36px; 
+    border: 2px solid #6a5acd; 
     border-radius: 6px;
     font-size: 16px;
     outline: none;
