@@ -508,14 +508,33 @@ img {
     align-items: baseline; 
 }
 
-.footer-one{
+.footer-one {
     margin-right: 120px;
-}
-
-.footer-one,
-.footer-to {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+}
+.footer-to {
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-tre{
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.footer-tre-form {
+    display: flex;
+    flex-direction: column;
+}
+.footer-tre-title {
+    color: #ccc;
+    margin-bottom: 16px;
+}
+.footer-button-conteiner {
+    width: 165px;
+        height: 40px;
 }
 
 .footer-logo {
@@ -597,8 +616,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 1;
-    pointer-events: none;
+    opacity: 0; 
 }
 
 .modal {
@@ -607,26 +625,42 @@ img {
     padding: 24px;
     box-shadow: 0 2px 4px rgba(46, 47, 66, 0.08);
     max-width: 408px;
-    min-height: 584px;
+    max-height: 584px;
     overflow-y: auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
 }
-
-
+ 
 .form {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    border-radius: 4px;
 }
+
 .form-label {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: var(--light-slate);
+    margin-top: 8px;
+    margin-bottom: 4px;
 }
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 .modal-title {
     font-weight: 500;
     font-size: 16px;
@@ -634,20 +668,120 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 16px;
 }
+
 .icon-close-overlay {
-    width: 100%;
-    height: 100%;
-    background-color: #4d5ae5;
+    width: 24px;
+    height: 24px;
+    background-color: #E7E9FC;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: #fff;
+    fill: #2E2F42;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .close-button {
-    width: 24px;
-    height: 24px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.form-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    display: flex;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.overlay-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tabl-form {
+    border: none;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+.input-icon {
+    position: absolute;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    fill: #2E2F42;
+    /* Цвет иконки */
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 12px 10px 36px;
+    /* Отступ слева для иконки */
+    border: 2px solid #6a5acd;
+    /* Цвет рамки */
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+}
+
+.form-input::placeholder {
+    color: #a0a0a0;
+}
+
+.tabl-form-check {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    width: 100%;
+}
+.overlay-container {
+    width: 360px;
+}
+.overlay-privacy-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+}
+
+.overlay-text-underline {
+    text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #4D5AE5;
 }
