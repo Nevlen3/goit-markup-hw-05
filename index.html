@@ -474,14 +474,12 @@
             </li>
           </ul>
         </div>
-
-        <div class="footer-tre">
-          <form class="footer-tre-form">
-            <label class="footer-tre-title">Subscribe</label>
-            <input type="email" name="email" placeholder="Email" />
-            <button class="footer-button-conteiner">Subscribe</button>
-          </form>
-        </div>
+        <p class="footer-title">Subscribe</p>
+        <form class="footer-tre-form">
+          <label class="footer-tre-title">Subscribe</label>
+          <input type="email" name="email" placeholder="Email" />
+          <button class="footer-button-conteiner">Subscribe</button>
+        </form>
       </div>
     </footer>
     <!-- #end FOOTER -->
@@ -491,7 +489,7 @@
     <div class="backdrop is-open">
       <div class="modal">
         <div class="close-button">
-          <button class="icon-close-overlay" width="24" height="24">
+          <button class="icon-close-overlay" type="button">
             <svg class="svg-close-overlay" width="24" height="24">
               <use href="../images/icons.svg#icon-close"></use>
             </svg>
@@ -500,6 +498,21 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="form" name="issue_report_form" autocomplete="off">
           <!-- #list one -->
+
+          <div class="modal-cont-block">
+            <label class="modal-form-label"></label>
+            <div class="modal-form-input-cont">
+              <input
+                class="modal-form-input"
+                required
+                id="user-text"
+                type="text"
+              />
+              <svg width>
+                <use href></use>
+              </svg>
+            </div>
+          </div>
           <fieldset class="tabl-form">
             <div class="form-group">
               <label class="form-label" for="name">Name</label>
@@ -550,7 +563,7 @@
             </div>
             <label class="overlay-privacy-text" for="privacy">
               I accept the terms and conditions of the
-              <p class="overlay-text-underline">Privacy Policy</p>
+              <span class="blue">Privacy Policy</span>
             </label>
           </fieldset>
         </form>
