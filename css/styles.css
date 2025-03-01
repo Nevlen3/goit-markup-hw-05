@@ -522,32 +522,14 @@ img {
     margin-right: 120px;
     display: flex;
     flex-direction: column;
+    height: 72px;
+    min-width: 264px;
 }
 .footer-to {
     margin-right: 120px;
     display: flex;
     flex-direction: column;
-}
-.footer-tre{
-    margin-right: 120px;
-    display: flex;
-    flex-direction: column;
 } 
-
-.footer-tre-form {
-    display: flex;
-    flex-direction: column;
-}
-.footer-tre-title {
-    color: #ccc;
-    margin-bottom: 16px;
-    display: block;
-}
-.footer-button-conteiner {
-    width: 165px;
-    height: 40px;
-    display: block;
-}
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -612,6 +594,34 @@ img {
     background-color: #31d0aa;
 }
 
+.footer-tre {
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-tre-title {
+    color: #ccc;
+    margin-bottom: 16px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.footer-tre-form {
+    display: flex;
+    gap: 24px;
+/*    flex-direction: column; */
+}
+
+.footer-button-conteiner {
+    width: 165px;
+    height: 40px;
+    display: block;
+}
 
 /* #end FOOTER */
 
