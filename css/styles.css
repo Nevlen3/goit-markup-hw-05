@@ -642,7 +642,7 @@ img {
     border: none;
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
-    width: 165px;
+    min-width: 165px;
     height: 40px; 
     font-size: 16px;
     font-weight: 500;
@@ -762,16 +762,14 @@ img {
 }
 
 .modal-container-block {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
-.modal-form-label {
-    transition: color #8e8f99;
+.modal-form-label { 
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: 0.04em;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.04em; 
     color: rgba(64, 64, 64, 0.3);
     display: block;
     margin-bottom: 4px;
@@ -873,7 +871,7 @@ img {
     color: #FFFFFF;
     background-color: #4D5AE5;
     display: block;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     font-size: 16px;
     font-weight: 500;
