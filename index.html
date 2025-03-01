@@ -488,18 +488,14 @@
 
     <div class="backdrop is-open">
       <div class="modal">
-
-          <button class="icon-close-overlay" type="button">
-            <svg class="svg-close-overlay" width="8" height="8">
-              <use href="../images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-
+        <button class="icon-close-overlay" type="button">
+          <svg class="svg-close-overlay" width="8" height="8">
+            <use href="../images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
-
-          <!-- #list one -->
-
-        <form class="modal-form" name="issue_report_form" autocomplete="off"></form>
+        <!-- #list one -->
+        <form class="modal-form" name="issue_report_form" autocomplete="off">
           <div class="modal-container-block">
             <label class="modal-form-label" for="user-name">Name</label>
             <div class="modal-form-input-cont">
@@ -515,7 +511,7 @@
               </svg>
             </div>
           </div>
-            <div class="modal-container-block">
+          <div class="modal-container-block">
             <label class="modal-form-label" for="user-phone">Phone</label>
             <div class="modal-form-input-cont">
               <input
@@ -530,7 +526,7 @@
               </svg>
             </div>
           </div>
-            <div class="modal-container-block">
+          <div class="modal-container-block">
             <label class="modal-form-label" for="user-email">Email</label>
             <div class="modal-form-input-cont">
               <input
@@ -561,81 +557,30 @@
           </div>
 
           <div class="modal-form-con-chekbox">
-            <input type="checkbox" class="visually-hidden" id="user-privacy" name="user-privacy" value="true">
-            <label class="label-checkbox" for="user-privacy" class="privacy-text">
+            <input
+              type="checkbox"
+              class="visually-hidden"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+            />
+            <label
+              class="label-checkbox"
+              for="user-privacy"
+              class="privacy-text"
+            >
               <span class="custom-chekbox">
                 <svg class="chekbox-form-icon" width="10" height="8">
-                <use href="../images/icons.svg#icon-ok"></use>
-              </svg>
-            </span>I accept the terms and conditions of the
-              <a class="blue">Privacy Policy</a></label>
+                  <use href="../images/icons.svg#icon-ok"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="blue">Privacy Policy</a></label
+            >
           </div>
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
-
-<!-- #after 
-
-
-          <fieldset class="tabl-form">
-            <div class="form-group">
-              <label class="form-label" for="name">Name</label>
-              <div class="input-wrapper">
-                <svg class="input-icon" width="16" height="16">
-                  <use href="../images/icons.svg#icon-person"></use>
-                </svg>
-                <input class="form-input" type="text" name="name" id="name" />
-              </div>
-            </div>
-
-            <label class="form-label" for="phone">Phone</label>
-            <div class="input-wrapper">
-              <svg class="input-icon" width="16" height="16">
-                <use href="../images/icons.svg#icon-phone"></use>
-              </svg>
-              <input class="form-input" type="tel" name="phone" id="phone" />
-            </div>
-
-            <label class="form-label" for="email">Email</label>
-            <div class="input-wrapper">
-              <svg class="input-icon" width="16" height="16">
-                <use href="../images/icons.svg#icon-email"></use>
-              </svg>
-              <input class="form-input" type="email" name="email" id="email" />
-            </div>
-
-            <label class="form-label" for="comment">Comment</label>
-            <input
-              class="form-input"
-              type="text"
-              name="comment"
-              id="comment"
-              placeholder="Text input"
-            />
-          </fieldset>
-
-          <!-- #list two 
-          <fieldset class="tabl-form-check">
-            <div class="checkbox">
-              <input
-                type="checkbox"
-                class="form-input"
-                name="privacy"
-                value="privacy"
-                id="privacy"
-              />
-            </div>
-            <label class="overlay-privacy-text" for="privacy">
-              I accept the terms and conditions of the
-              <span class="blue">Privacy Policy</span>
-            </label>
-          </fieldset>
-        </form>
-      </div>
-    </div>
--->
-    
     <!-- #endregin OVERLAY -->
     <script src="./js/modal.js"></script>
   </body>
