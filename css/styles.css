@@ -753,7 +753,12 @@ img {
     text-align: center;
     color: #2E2F42;
     margin-bottom: 16px;
-    margin-top: 48px;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .modal-container-block {
@@ -868,7 +873,7 @@ img {
     color: #FFFFFF;
     background-color: #4D5AE5;
     display: block;
-    min-width: 169px;
+    max-width: 169px;
     height: 56px;
     font-size: 16px;
     font-weight: 500;
