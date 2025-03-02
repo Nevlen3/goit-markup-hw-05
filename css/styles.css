@@ -762,6 +762,10 @@ img {
 }
 
 .modal-container-block {
+    margin-bottom: 8px;
+}
+
+.modal-container-block-comm {
     margin-bottom: 16px;
 }
 
