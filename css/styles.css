@@ -755,8 +755,7 @@ img {
     margin-bottom: 16px;
 }
 
-.modal-form {
-    display: flex;
+.modal-form { 
     flex-direction: column;
     justify-content: center;
 }
@@ -869,6 +868,7 @@ input[type="checkbox"]:checked+.label-checkbox .custom-chekbox {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
  
 .modal-btn {
@@ -885,6 +885,7 @@ input[type="checkbox"]:checked+.label-checkbox .custom-chekbox {
     cursor: pointer;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
 }
 
 .blue {
